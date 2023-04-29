@@ -103,3 +103,16 @@ button {
   line-height: 1.5;
   width: max-content;
 }
+
+.head1 {
+  font-size: 40px;
+  color: green !important;
+}
+
+.aa {
+  color: red;
+}
+
+.aa:hover {
+  color: blue;
+}

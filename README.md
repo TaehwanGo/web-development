@@ -18,3 +18,9 @@
 # 당뇨앱 만들기
 
 - https://www.figma.com/file/PDUZjd2XLlnhoTfv1DfCUN/%EB%8B%B9%EB%87%A8%EC%95%B1v1?node-id=0-1&t=JjDN01X4ohzMSqYl-0
+
+# 참고할 만한 사이트
+
+- https://www.w3schools.com/tags/tag_html.asp
+- https://caniuse.com/
+- https://flexboxfroggy.com/
