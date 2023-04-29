@@ -1,8 +1,17 @@
+* {
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
+}
+
 body {
   margin: 0;
   width: 100%;
   min-height: 100vh;
   background-color: #f5f5f5;
+}
+
+button {
+  border: none;
+  background-color: transparent;
 }
 
 .app_container {
@@ -19,4 +28,78 @@ body {
   height: 844px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
+}
+
+.app_state {
+  display: flex;
+  padding: 11px 40px;
+  justify-content: space-between;
+}
+
+.app_title {
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #8fdfc7;
+}
+
+.app_main {
+  padding: 10px 16px 21px;
+}
+
+.main_guide_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_guide_title_text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.main_guide_title_button {
+  color: #1b8e6c;
+  border: 1px solid #8fdfc7;
+  border-radius: 8px;
+  padding: 6px 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.main_guide_foodGroup {
+  /* padding: 9px; */
+  display: flex;
+  gap: 8px;
+}
+
+.foodGroup_item {
+  background-color: #f0efeb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+.foodGroup_item_count {
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.foodGroup_item_name {
+  color: #6b6b6b;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  width: max-content;
 }
